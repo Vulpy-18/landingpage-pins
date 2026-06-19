@@ -29,7 +29,7 @@
         --verde-claro: #5a7a65;
         --dourado: #d4b96a;
         --amber: #c8954a;
-        --vinho: #8b2020;
+        --vinho: #ee4e4e;
         --bege: #f5ede0;
         --marrom: #2b1a10;
         --ff-serif: "Playfair Display", Georgia, serif;
@@ -50,7 +50,7 @@
 
       /* ── UTILITÁRIOS ── */
       .micro {
-        font-size: 10px;
+        font-size: 15px;
         font-weight: 500;
         letter-spacing: 0.2em;
         text-transform: uppercase;
@@ -98,7 +98,7 @@
       .nav-logo {
         font-family: var(--ff-serif);
         font-style: italic;
-        font-size: 17px;
+        font-size: 37px;
         color: var(--dourado);
         letter-spacing: 0.02em;
       }
@@ -235,10 +235,21 @@
       }
       .hero-note {
         margin-top: 28px;
-        font-size: 11px;
+        font-size: 15px;
         color: var(--bege);
         opacity: 0.3;
         letter-spacing: 0.05em;
+      }
+
+      .hero-info {
+        margin-top: -13px;
+        margin-bottom: 13px;
+        font-family: var(--ff-sans);
+        font-size: 20px;
+        color: var(--dourado);
+        opacity: 1;
+        letter-spacing: 0.05em;
+        align
       }
 
       /* ── DOR / IDENTIFICAÇÃO ── */
@@ -792,7 +803,7 @@
       .pq-col-nao {
       }
       .pq-col-title {
-        font-size: 11px;
+        font-size: 15px;
         font-weight: 600;
         letter-spacing: 0.18em;
         text-transform: uppercase;
@@ -805,7 +816,7 @@
       }
       .pq-col-title.nao {
         color: var(--vinho);
-        opacity: 0.7;
+        opacity: 1;
       }
       .pq-list {
         list-style: none;
@@ -983,13 +994,13 @@
         text-align: left;
       }
       .anc-col.sem {
-        background: rgba(212, 185, 106, 0.04);
+        background: rgba(212, 185, 106, 0.075);
       }
       .anc-col.com {
         background: rgba(212, 185, 106, 0.1);
       }
       .anc-col-title {
-        font-size: 10px;
+        font-size: 15px;
         font-weight: 600;
         letter-spacing: 0.18em;
         text-transform: uppercase;
@@ -1471,7 +1482,7 @@
   <body>
     <!-- ═══ NAV ═══ -->
     <nav aria-label="Navegação principal">
-      <span class="nav-logo">Dra. Ítala Aguiar - PINS</span>
+      <span class="nav-logo">PINS</span>
       <a
         href="https://forms.gle/nkYyssnwYuyWiSTF8"
         class="nav-cta"
@@ -1499,9 +1510,10 @@
             >
             <div class="gold-short"></div>
           </div>
+          <div class="hero-info">6 meses · 12 encontros · online</div>
 
           <h1 class="hero-h1">
-            A maioria dos profissionais da saúde<br />
+            A maioria dos profissionais da saúde e terapias<br />
             constrói uma <span class="gold">profissão.</span>
             <span class="block2">Mas não constrói um negócio.</span>
           </h1>
@@ -1521,9 +1533,7 @@
               Quero fazer minha aplicação
             </a>
           </div>
-          <p class="hero-note">
-            Vagas limitadas · Processo seletivo · @dra.italaaguiar
-          </p>
+          <p class="hero-note">Vagas limitadas · Processo seletivo</p>
         </div>
         <!-- end hero-text-col -->
       </div>
@@ -1535,7 +1545,7 @@
     <section id="dor">
       <div class="section">
         <p class="micro" style="text-align: center; margin-bottom: 18px">
-          Você já sentiu isso
+          Você já sentiu isso?
         </p>
 
         <div class="dor-grid">
@@ -1589,9 +1599,9 @@
             <span class="gold">ninguém te ensinou a construir um negócio.</span>
           </p>
           <p class="dor-statement-p">
-            Você foi ensinada a ser uma excelente profissional da saúde. Mas
-            nenhuma faculdade ensina o que fazer quando a profissão precisa
-            virar empresa.
+            Você foi ensinada a ser uma excelente profissional da saúde e
+            terapias. Mas nenhuma faculdade ensina o que fazer quando a
+            profissão precisa virar empresa.
           </p>
         </div>
       </div>
@@ -1674,8 +1684,9 @@
           </p>
           <p class="historia-body">
             Foi nesse momento que percebi algo que mudou para sempre a forma
-            como eu enxergo o trabalho de profissionais da saúde: existe uma
-            diferença enorme entre ter uma profissão e ter um negócio.
+            como eu enxergo o trabalho de profissionais da saúde e terapias:
+            existe uma diferença enorme entre ter uma profissão e ter um
+            negócio.
           </p>
           <p class="historia-body">
             Quem tem apenas uma profissão, para quando não pode estar presente.
@@ -1710,7 +1721,7 @@
           <div class="queme-foto">
             <img
               src="./fotos/itala-aguiar (2).jpeg"
-              alt="Dra. Ítala Aguiar - Especialista em Negócios de Saúde"
+              alt="Dra. Ítala Aguiar - Especialista em Negócios de Saúde e Terapias"
               style="
                 width: 100%;
                 height: 100%;
@@ -1726,8 +1737,9 @@
             </p>
             <h2 class="queme-h">Dra. <span class="gold">Ítala Aguiar</span></h2>
             <p class="queme-tagline">
-              Administradora · Psicanalista Integrativa · Professora
-              Universitária
+              Psicanalista Integrativa · Consteladora Familiar · Naturopata
+              Ortomolecular · Administradora de RH · Professora Universitária e
+              de Pós-Graduação
             </p>
 
             <ul class="queme-items">
@@ -1750,7 +1762,7 @@
             <div class="queme-frase">
               <p>
                 "Profissionais excelentes deveriam prosperar sem precisar virar
-                influenciadoras."
+                blogueira."
               </p>
             </div>
           </div>
@@ -1892,8 +1904,8 @@
         <div class="implementa-header">
           <p class="micro">Ao final do programa você terá</p>
           <h2 class="implementa-h">
-            Não mais informação.<br />
-            <span class="gold">Implementação real.</span>
+            <span class="gold">Implementação real.</span><br />
+            Não mais informação.
           </h2>
         </div>
 
@@ -2124,8 +2136,8 @@
           <p class="retrato-quote-text">
             "Você já fez a parte mais difícil: construiu uma carreira com
             excelência e resultado. Agora é hora de dar a esse trabalho a
-            estrutura que ele merece. Não mais consultas avulsas, não mais renda
-            imprevisível. Um negócio que cresce com você, não só por você."
+            estrutura que ele merece. Sem consultas avulsas, e sem renda
+            imprevisível."
           </p>
           <div class="gold-short" style="margin: 20px 0"></div>
           <p
@@ -2137,7 +2149,7 @@
               opacity: 0.7;
             "
           >
-            Dra. Ítala Aguiar · @dra.italaaguiar
+            Dra. Ítala Aguiar
           </p>
         </div>
       </div>
@@ -2180,7 +2192,7 @@
               </li>
               <li>
                 <span class="pq-sim-dot">✓</span>Quer criar um programa de
-                acompanhamento próprio
+                acompanhamento clínico e terapêutico próprio
               </li>
               <li>
                 <span class="pq-sim-dot">✓</span>Está cansada de improvisar e
@@ -2201,8 +2213,8 @@
             <p class="pq-col-title nao">O PINS não é para quem</p>
             <ul class="pq-list">
               <li>
-                <span class="pq-nao-dot">✕</span>Está iniciando na área e ainda
-                não atende pacientes
+                <span class="pq-nao-dot">✕</span>Está iniciando na área da saúde
+                e terapias e ainda não atende pacientes
               </li>
               <li>
                 <span class="pq-nao-dot">✕</span>Busca fórmula mágica ou atalhos
@@ -2417,13 +2429,13 @@
             <span class="gold">para todo mundo</span>
           </h2>
           <p class="urgencia-sub">
-            O programa é conduzido com um número reduzido de profissionais
+            O programa é realizado com um número reduzido de profissionais
             acompanhadas simultaneamente. Isso garante a qualidade do
             acompanhamento e a atenção individualizada que cada negócio precisa.
             As aplicações passam por um processo seletivo.
           </p>
           <div class="urgencia-pills">
-            <span class="urgencia-pill">Vagas limitadas por turma</span>
+            <span class="urgencia-pill">Vagas limitadas</span>
             <span class="urgencia-pill">Processo seletivo</span>
             <span class="urgencia-pill amber"
               >Acompanhamento individualizado</span
@@ -2451,7 +2463,7 @@
                 <p class="faq-answer">
                   Não é nem um nem outro no sentido convencional. O PINS é um
                   programa de implementação. Diferente de um curso, você não
-                  apenas assiste a conteúdo. Diferente de uma mentoria baseada
+                  apenas assiste ao conteúdo. Diferente de uma mentoria baseada
                   em conteúdo, aqui o foco é construção real: saímos juntas com
                   o negócio estruturado, não só com ideias na cabeça.
                 </p>
@@ -2467,7 +2479,7 @@
                   estrutura de negócio. Profissionais com poucos seguidores e um
                   posicionamento claro faturam muito mais do que quem tem grande
                   audiência sem estrutura. Trabalhamos para construir autoridade
-                  real.
+                  real. Número de seguidores é questão de ego.
                 </p>
               </details>
             </div>
@@ -2478,7 +2490,8 @@
                   Não necessariamente. O programa inclui estratégias tanto
                   orgânicas quanto pagas. O foco inicial é estruturar o negócio,
                   o posicionamento e o produto. A estratégia de aquisição é
-                  montada de acordo com a sua realidade.
+                  montada de acordo com a sua realidade. Mas no momento certo
+                  você deverá investir sim em tráfego pago.
                 </p>
               </details>
             </div>
@@ -2514,7 +2527,8 @@
                   Você recebe direcionamento estratégico personalizado, tira
                   dúvidas sobre o que está implementando e avança com clareza.
                   Todas as sessões são gravadas e ficam disponíveis para
-                  revisão.
+                  revisão. Você terá acesso ao WhatsApp pessoal da Dra. Ítala
+                  para tirar suas dúvidas entre os encontros.
                 </p>
               </details>
             </div>
@@ -2523,8 +2537,8 @@
                 <summary>Como é o pagamento?</summary>
                 <p class="faq-answer">
                   As condições de pagamento são informadas após a aprovação na
-                  aplicação, de forma personalizada para cada profissional.
-                  Acesse o formulário de aplicação para dar o primeiro passo.
+                  aplicação. Acesse o formulário de aplicação para dar o
+                  primeiro passo.
                 </p>
               </details>
             </div>
@@ -2569,9 +2583,7 @@
         >
           Quero fazer minha aplicação
         </a>
-        <p class="cta-final-note">
-          Vagas limitadas · Processo seletivo · @dra.italaaguiar
-        </p>
+        <p class="cta-final-note">Vagas limitadas · Processo seletivo</p>
       </div>
     </section>
 
